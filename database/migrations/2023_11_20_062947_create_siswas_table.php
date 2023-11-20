@@ -17,6 +17,7 @@ class CreateSiswasTable extends Migration
             $table->id();
             $table->string('nama');
             $table->string('gender');
+            $table->string('umur');
             $table->string('tanggal_lahir');
             $table->string('minuman_favorit');
             $table->string('makanan_favorit');

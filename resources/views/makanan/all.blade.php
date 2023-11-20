@@ -12,7 +12,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($makanan as $food)
+            @foreach ($makanan  as $food)
                 <tr>
                     <td>{{ $food->nama }}</td>
                     <td>{{ $food->harga }}</td>

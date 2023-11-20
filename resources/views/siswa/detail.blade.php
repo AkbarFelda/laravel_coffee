@@ -7,6 +7,7 @@
         <thead>
             <tr>
                 <th scope="col">Nama</th>
+                <th scope="col">Umur</th>
                 <th scope="col">Gender</th>
                 <th scope="col">tanggal_lahir</th>
                 <th scope="col">Makanan_favorit</th>
@@ -17,6 +18,7 @@
         <tbody>
                 <tr>
                     <td>{{ $siswa->nama }}</td>
+                    <td>{{ $siswa->umur }}</td>
                     <td>{{ $siswa->gender }}</td>
                     <td>{{ $siswa->tanggal_lahir }}</td>
                     <td>{{ $siswa->makanan_favorit }}</td>

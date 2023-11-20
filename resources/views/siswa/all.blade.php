@@ -8,7 +8,7 @@
             <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Gender</th>
-                <th scope="col">Tanggal Lahir</th>
+                <th scope="col">Umur</th>
                 <th scope="col">Action</th>
             </tr>
         </thead>
@@ -17,7 +17,7 @@
                 <tr>
                     <td>{{ $student->nama }}</td>
                     <td>{{ $student->gender }}</td>
-                    <td>{{ $student->tanggal_lahir }}</td>
+                    <td>{{ $student->umur }}</td>
                     <td>
                         <a type="button" class="btn btn-primary" href="/siswa/detail/{{$student->id}}">Detail</a>
                     </td>
