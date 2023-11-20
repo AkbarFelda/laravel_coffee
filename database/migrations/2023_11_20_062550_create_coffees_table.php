@@ -4,22 +4,18 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Coffee extends Migration
+class CreateCoffeesTable extends Migration
 {
     /**
      * Run the migrations.
      *
      * @return void
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('coffees', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->string('jenis');
-            $table->string('harga');
             $table->timestamps();
-            
         });
     }
 
@@ -28,8 +24,8 @@ class Coffee extends Migration
      *
      * @return void
      */
-    public function down(): void
+    public function down()
     {
-        Schema::dropIfExists('coffee');
+        Schema::dropIfExists('coffees');
     }
-};
+}

@@ -15,6 +15,11 @@
       <li class="nav-item">
         <a class="nav-link" href="/makanan/all/">Makanan</a>
     </ul>
+    <ul class="navbar-nav">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/siswa/all/">Siswa</a>
+  </ul>
     </div>
   </div>
 </nav>

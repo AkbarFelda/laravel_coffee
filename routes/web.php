@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CoffeeController;
 use App\Http\Controllers\MakananController;
+use App\Http\Controllers\SiswaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,5 @@ Route::get('/coffee/all', [CoffeeController::class, 'index']);
 Route::get('/coffee/detail/{coffee}', [CoffeeController::class, 'show']);
 Route::get('/makanan/all', [MakananController::class, 'index']);
 Route::get('/makanan/detail/{makanan}', [MakananController::class, 'show']);
+Route::get('/siswa/all', [SiswaController::class, 'index']);
+Route::get('/siswa/detail/{siswa}', [SiswaController::class, 'show']);

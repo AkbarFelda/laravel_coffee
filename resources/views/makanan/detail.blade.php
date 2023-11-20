@@ -18,7 +18,7 @@
                     <td>{{ $makanan->nama }}</td>
                     <td>{{ $makanan->jenis }}</td>
                     <td>{{ $makanan->harga }}</td>
-                    <td>{{ $makanan->kalori }}</td>
+                    <td>{{ $makanan->calori }}</td>
                     <td>
                         <a type="button" class="btn btn-primary" href="/makanan/all/">Back</a>
                     </td>
